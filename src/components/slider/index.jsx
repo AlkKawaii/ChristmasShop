@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -12,21 +12,19 @@ export default function Slider({ images = [] }) {
     <div>
       <Swiper
         slidesPerView={1}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
         loop={true}
         pagination={{ clickable: true, dynamicBullets: true }}
-        modules={[Pagination]}>
-        <SwiperSlide>
-          <img src='https://picsum.photos/200/300?random=1' alt='imagem' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://picsum.photos/200/300?random=2' alt='imagem' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://picsum.photos/200/300?random=3' alt='imagem' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://picsum.photos/200/300?random=4' alt='imagem' />
-        </SwiperSlide>
+        modules={[Pagination, Autoplay]}
+        className={styles.slider}>
+        {images.map((image, i) => (
+          <SwiperSlide key={i}>
+            <img src={image} alt={`Imagem número ${i + 1}`} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

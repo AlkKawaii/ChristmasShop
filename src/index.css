@@ -1,11 +1,21 @@
+:root {
+  --color-primary: #b76a6a;
+  --color-secondary: #61ae86;
+  --color-accent: #ffc107;
+  --color-background: #fafafa;
+  --color-text: #37474f;
+}
+
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Nunito;
+  font-family: Nunito;
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
