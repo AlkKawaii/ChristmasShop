@@ -15,14 +15,18 @@ export default function ProductCard({ name, rating = 0, price, image }) {
               'starOutline',
             ]
               .fill('starFilled', 0, Math.round(rating) - 1)
-              .map((star) => <img src={`/svg/${star}.svg`} alt='Estrela' />)
+              .map((star, i) => (
+                <img src={`/svg/${star}.svg`} alt='Estrela' key={i} />
+              ))
           : [
               'starOutline',
               'starOutline',
               'starOutline',
               'starOutline',
               'starOutline',
-            ].map((star) => <img src={`/svg/${star}.svg`} alt='Estrela' />)}
+            ].map((star, i) => (
+              <img src={`/svg/${star}.svg`} alt='Estrela' key={i} />
+            ))}
       </span>
       <span>{price}</span>
     </article>

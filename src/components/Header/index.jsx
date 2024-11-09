@@ -1,36 +1,43 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './Header.module.css';
 import heartOutline from '/svg/heartOutline.svg';
 import heartFilled from '/svg/heartFilled.svg';
 import shoppingCart from '/svg/shoppingCart.svg';
 import userCircle from '/svg/userCircle.svg';
-import search from '/svg/search.svg';
+import { useEffect, useRef, useState } from 'react';
+import SearchBox from '../SearchBox';
+
 export default function Header() {
+  const oldScrollRef = useRef(window.scrollY);
+  const headerRef = useRef(null);
+  useEffect(() => {
+    if (headerRef.current) {
+      headerRef.current.classList.add(styles.show);
+    }
+
+    const handleScroll = () => {
+      let currentScroll = window.scrollY;
+      if (currentScroll > oldScrollRef.current) {
+        headerRef.current.classList.remove(styles.show);
+      } else {
+        headerRef.current.classList.add(styles.show);
+      }
+      oldScrollRef.current = window.scrollY;
+    };
+    document.addEventListener('scroll', handleScroll);
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <header className={styles.header}>
+    <header className={styles.header} ref={headerRef}>
       <Link to='/' className={styles.leftContainer}>
         <img src='/icon.png' alt='ícone' />
         <span>Christmas Shop</span>
       </Link>
       <div className={styles.rightContainer}>
-        <div className={styles.searchBox}>
-          <input
-            type='search'
-            name='search'
-            id='search'
-            className={styles.search}
-            placeholder='Pesquise aqui'
-          />
-          <input
-            type='checkbox'
-            name='searchToggle'
-            id='searchToggle'
-            className={styles.searchToggle}
-          />
-          <label htmlFor='searchToggle'>
-            <img src={search} alt='Pesquisa' />
-          </label>
-        </div>
+        <SearchBox />
         <Link to='/account'>
           <img src={userCircle} alt='Conta' />
         </Link>
