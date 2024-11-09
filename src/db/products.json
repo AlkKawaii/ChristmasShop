@@ -24,11 +24,11 @@
         "reviewerName": "João Pereira"
       }
     ],
-    "thumbnail": "tree_thumbnail.jpg"
+    "thumbnail": "https://m.media-amazon.com/images/I/81I1PiouLOL._AC_SX679_.jpg"
   },
   {
     "id": 2,
-    "title": "Conjunto de Bolas Natalinas (20 peças)",
+    "title": "Conjunto de Bolas Natalinas (15 peças)",
     "description": "Bolas de Natal coloridas e brilhantes para enfeitar sua árvore.",
     "category": "Decoração",
     "price": 49.99,
@@ -45,7 +45,7 @@
         "reviewerName": "Ana Souza"
       }
     ],
-    "thumbnail": "balls_thumbnail.jpg"
+    "thumbnail": "https://glanori.com/cdn/shop/files/br_Bola_de_Natal_para_rvore_de_Natal_-_Kit_12_Bolas_800x.webp?v=1728956118"
   },
   {
     "id": 3,
@@ -72,7 +72,7 @@
         "reviewerName": "Juliana Almeida"
       }
     ],
-    "thumbnail": "wreath_thumbnail.jpg"
+    "thumbnail": "https://static.bomprecomagazine.com.br/public/bomprecomagazine/imagens/produtos/media/guirlanda-pinheiro-e-frutos-30cm-651b10d87e27d.jpg"
   },
   {
     "id": 4,
@@ -93,7 +93,7 @@
         "reviewerName": "Fernanda Carvalho"
       }
     ],
-    "thumbnail": "lights_thumbnail.jpg"
+    "thumbnail": "https://cdn.awsli.com.br/600x450/216/216774/produto/329195613769d14c55.jpg"
   },
   {
     "id": 5,
@@ -114,7 +114,7 @@
         "reviewerName": "Paulo Santos"
       }
     ],
-    "thumbnail": "santa_thumbnail.jpg"
+    "thumbnail": "https://images.tcdn.com.br/img/img_prod/841126/papai_noel_auto_inflavel_grande_200cm_12269_1_c490303b63f0a12bc3cfbf1c359185b6.png"
   },
   {
     "id": 6,
@@ -135,7 +135,7 @@
         "reviewerName": "Elaine Costa"
       }
     ],
-    "thumbnail": "socks_thumbnail.jpg"
+    "thumbnail": "https://www.talbots.com/dw/image/v2/BKGN_PRD/on/demandware.static/-/Sites-master-catalog-talbots/default/dw0aaa92e8/images/234064024/234064024_4156.jpg?sw=620&sh=821&sm=fit"
   },
   {
     "id": 7,
@@ -156,7 +156,7 @@
         "reviewerName": "Marcos Dias"
       }
     ],
-    "thumbnail": "nativity_thumbnail.jpg"
+    "thumbnail": "https://images.tcdn.com.br/img/img_prod/666632/presepio_sagrada_familia_com_anjo_19_5cm_1008424_1_eb47e5e19abbd70b5a0aef5ede68e455_20241009133044.jpg"
   },
   {
     "id": 8,
@@ -177,7 +177,7 @@
         "reviewerName": "Bianca Ferreira"
       }
     ],
-    "thumbnail": "snowman_thumbnail.jpg"
+    "thumbnail": "https://images-americanas.b2w.io/produtos/4060194484/imagens/boneco-de-neve-decoracao-mesa-de-natal-ceramica-pequeno/4060194484_1_large.jpg"
   },
   {
     "id": 9,
@@ -198,7 +198,7 @@
         "reviewerName": "Letícia Oliveira"
       }
     ],
-    "thumbnail": "tablecloth_thumbnail.jpg"
+    "thumbnail": "https://copaecia.cdn.magazord.com.br/img/2024/10/produto/9852/camada-2.jpg?ims=600x600"
   },
   {
     "id": 10,
@@ -225,7 +225,7 @@
         "reviewerName": "Lucas Moreira"
       }
     ],
-    "thumbnail": "advent_calendar_thumbnail.jpg"
+    "thumbnail": "https://chocolatrasonline.com.br/wp-content/uploads/2014/12/Lindt-calendario-do-advento.png"
   },
   {
     "id": 11,
@@ -246,7 +246,7 @@
         "reviewerName": "Sandra Ramos"
       }
     ],
-    "thumbnail": "blanket_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPpBVVF9fzMS2CZkxR9Sa3uzbsXRzDTQ0WnL_w5thVoEtYAS4OS7LRP8FAmq-_f8sckSnA1SZo2JLyECC_M2oDlq0nqOhsSyxgW63VJqTo2OMQdV4KAN1UEo1Q7E6QIBEedXywYK4&usqp=CAc"
   },
   {
     "id": 12,
@@ -267,7 +267,7 @@
         "reviewerName": "Thiago Costa"
       }
     ],
-    "thumbnail": "mug_thumbnail.jpg"
+    "thumbnail": "https://images.tcdn.com.br/img/img_prod/1245586/caneca_rena_cervo_207_2_4e4af308c36c54667682bb934bb1fec4.jpg"
   },
   {
     "id": 13,
@@ -288,7 +288,7 @@
         "reviewerName": "Beatriz Silva"
       }
     ],
-    "thumbnail": "napkins_thumbnail.jpg"
+    "thumbnail": "https://zonasul.vtexassets.com/arquivos/ids/3821911-800-auto?v=638664583641400000&width=800&height=auto&aspect=true"
   },
   {
     "id": 14,
@@ -309,7 +309,7 @@
         "reviewerName": "Gabriela Torres"
       }
     ],
-    "thumbnail": "gift_boxes_thumbnail.jpg"
+    "thumbnail": "https://i.pinimg.com/564x/eb/7d/99/eb7d99752fbc998360de8b97adbf6dd9.jpg"
   },
   {
     "id": 15,
@@ -330,7 +330,7 @@
         "reviewerName": "Ricardo Almeida"
       }
     ],
-    "thumbnail": "nutcracker_thumbnail.jpg"
+    "thumbnail": "https://images.tcdn.com.br/img/img_prod/789130/quebra_nozes_1018877_38571_1_73dd01b8e0db1c7a06a08acfa00bbba3.jpg"
   },
   {
     "id": 16,
@@ -351,7 +351,7 @@
         "reviewerName": "Pedro Rocha"
       }
     ],
-    "thumbnail": "santa_hat_thumbnail.jpg"
+    "thumbnail": "https://ae-pic-a1.aliexpress-media.com/kf/Se8ae38c446e243d8bb7366626a7a0c8dy/LED-Light-Plush-Santa-Hat-para-crian-as-e-adultos-Decora-es-de-Natal-suprimentos-luminosos.jpg_.webp"
   },
   {
     "id": 17,
@@ -372,7 +372,7 @@
         "reviewerName": "Camila Martins"
       }
     ],
-    "thumbnail": "tshirt_thumbnail.jpg"
+    "thumbnail": "https://down-br.img.susercontent.com/file/5ee2cded0ecf3f481daaeca0105afa22"
   },
   {
     "id": 18,
@@ -393,7 +393,7 @@
         "reviewerName": "Sofia Lima"
       }
     ],
-    "thumbnail": "candle_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzmbqlU3AVg2Py46A5XXreObsHHMarsltDfKiwjegv2n27eGghOCxj2H0a5Ft3vor9LZ11isI9iju8mSmXtsVwvhIkT8El34ED_i9dRaMcpVgD4GIhufMgLqS1gOKDfJ8-TseBP9w&usqp=CAc"
   },
   {
     "id": 19,
@@ -420,7 +420,7 @@
         "reviewerName": "André Souza"
       }
     ],
-    "thumbnail": "gift_wrapping_thumbnail.jpg"
+    "thumbnail": "https://images.tcdn.com.br/img/img_prod/746520/embalagem_presente_sacola_natal_multiart_28x12x37_unidades_5803914_1_3f32f9db32efd28904dcc5ad66a35c7b.jpg"
   },
   {
     "id": 20,
@@ -441,12 +441,12 @@
         "reviewerName": "Juliana Costa"
       }
     ],
-    "thumbnail": "window_stickers_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzEonZF4xQ77DT3ExE0glUuGSgUXq2yWPvbp-ma4UoegHaN1azeM3OwYsK9W8LHaxL70K1VfcdGzG0BVvIDiA5xKzMTXXCksMvODP4OnT1ix-Zi6dmaYgN"
   },
   {
     "id": 21,
-    "title": "Kit de Cortadores de Biscoito em Formato de Natal (5 peças)",
-    "description": "Conjunto de cortadores para biscoitos em formas natalinas como árvore de Natal, estrela e rena.",
+    "title": "Kit de Cortadores de Biscoito Natalino (5 peças)",
+    "description": "Conjunto de cortadores para biscoitos em formas natalinas como árvore de Natal, estrela e boneco de neve.",
     "category": "Utensílios de Cozinha",
     "price": 39.9,
     "rating": 4.8,
@@ -462,7 +462,7 @@
         "reviewerName": "Laura Martins"
       }
     ],
-    "thumbnail": "cookie_cutters_thumbnail.jpg"
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_716436-MLB54412810177_032023-F.webp"
   },
   {
     "id": 22,
@@ -483,7 +483,7 @@
         "reviewerName": "Felipe Santana"
       }
     ],
-    "thumbnail": "photo_frame_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT_5wTzyoCG3WuthGX4D97f2-avIkPacaG8PqAYeSUADqHBd8nxzVFLu9cwsvFi6Aa5HrCuIDvHPZvbUe82iuch3YCKefxqazL2czrWtr6GtRtspiZlRGhPSnPMsqcEw1-Sp4_vpw&usqp=CAc"
   },
   {
     "id": 23,
@@ -504,7 +504,7 @@
         "reviewerName": "Ricardo Pereira"
       }
     ],
-    "thumbnail": "christmas_mug_thumbnail.jpg"
+    "thumbnail": "https://static.vivacehouseware.com.br/public/vivace/imagens/produtos/media/caneca-seattle-400ml-branco-arvore-de-natal-le-creuset-639b60f7e8602.jpg"
   },
   {
     "id": 24,
@@ -525,7 +525,7 @@
         "reviewerName": "Gustavo Martins"
       }
     ],
-    "thumbnail": "belt_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT5ZpzryNjrwQbAHara9jG4pgD3v38XcBef2KpOgmWg1NbyEvgPEOC22hsFEwvt6oRQdsSRkZhm9C7jw2TNnKmchutSJcQ8RtaQjeNwtr6HUJLtbdHrDmmohLESska-nK2Rg1YlL0A&usqp=CAc"
   },
   {
     "id": 25,
@@ -546,7 +546,7 @@
         "reviewerName": "Paula Martins"
       }
     ],
-    "thumbnail": "star_lamp_thumbnail.jpg"
+    "thumbnail": "https://www.talacembalagens.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/6/1691956-ESTRELA-56-LEDS-BIVOLT-CLA-40CM-DECORACOES-EM-LED-1-UN.JPG"
   },
   {
     "id": 26,
@@ -567,7 +567,7 @@
         "reviewerName": "Amanda Souza"
       }
     ],
-    "thumbnail": "thermal_bag_thumbnail.jpg"
+    "thumbnail": "https://m.media-amazon.com/images/I/71950nyCHYL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "id": 27,
@@ -588,7 +588,7 @@
         "reviewerName": "Felipe Oliveira"
       }
     ],
-    "thumbnail": "mini_tree_thumbnail.jpg"
+    "thumbnail": "https://tb2844.vtexassets.com/arquivos/ids/167813-800-auto?v=637982591836100000&width=800&height=auto&aspect=true"
   },
   {
     "id": 28,
@@ -609,11 +609,11 @@
         "reviewerName": "Mariana Costa"
       }
     ],
-    "thumbnail": "gift_wrapping_paper_thumbnail.jpg"
+    "thumbnail": "https://tb2844.vtexassets.com/arquivos/ids/167813-800-auto?v=637982591836100000&width=800&height=auto&aspect=true"
   },
   {
     "id": 29,
-    "title": "Meias de Natal (Pacote com 3 pares)",
+    "title": "Meias de Natal (Pacote com 5 pares)",
     "description": "Meias de Natal com estampas de Papai Noel, renas e flocos de neve.",
     "category": "Vestuário",
     "price": 29.9,
@@ -630,7 +630,7 @@
         "reviewerName": "Rodrigo Silva"
       }
     ],
-    "thumbnail": "christmas_socks_thumbnail.jpg"
+    "thumbnail": "https://m.media-amazon.com/images/I/51ucqzkpyXL._AC_SY580_.jpg"
   },
   {
     "id": 30,
@@ -651,12 +651,12 @@
         "reviewerName": "Fernanda Lima"
       }
     ],
-    "thumbnail": "christmas_tree_thumbnail.jpg"
+    "thumbnail": "https://down-br.img.susercontent.com/file/sg-11134201-7r996-ll59cqm3d7dp47"
   },
   {
     "id": 31,
     "title": "Guirlanda de Natal com Luzes LED",
-    "description": "Guirlanda de Natal decorada com folhas artificiais, pinhas e luzes LED integradas.",
+    "description": "Guirlanda de Natal decorada com folhas artificiais, um papai noel e luzes LED integradas.",
     "category": "Decoração",
     "price": 99.9,
     "rating": 4.8,
@@ -672,7 +672,7 @@
         "reviewerName": "José Pereira"
       }
     ],
-    "thumbnail": "wreath_thumbnail.jpg"
+    "thumbnail": "https://cdn.awsli.com.br/800x800/675/675386/produto/125030839906ba9dcce.jpg"
   },
   {
     "id": 32,
@@ -693,7 +693,7 @@
         "reviewerName": "Carla Souza"
       }
     ],
-    "thumbnail": "bathrobe_thumbnail.jpg"
+    "thumbnail": "https://m.media-amazon.com/images/I/41cPlRiTh8L._AC_SY1000_.jpg"
   },
   {
     "id": 33,
@@ -714,7 +714,7 @@
         "reviewerName": "Eduardo Costa"
       }
     ],
-    "thumbnail": "breakfast_basket_thumbnail.jpg"
+    "thumbnail": "https://www.interflores.com.br/lojas/00008104/prod/cesta_cafe_de_natal.PNG?cccfc=2b2a3efe"
   },
   {
     "id": 34,
@@ -735,7 +735,7 @@
         "reviewerName": "Luciana Alves"
       }
     ],
-    "thumbnail": "flower_wreath_thumbnail.jpg"
+    "thumbnail": "https://cdn.pixabay.com/photo/2018/10/12/17/37/crown-3742632_960_720.png"
   },
   {
     "id": 35,
@@ -756,7 +756,7 @@
         "reviewerName": "Juliana Santos"
       }
     ],
-    "thumbnail": "decorated_cookies_thumbnail.jpg"
+    "thumbnail": "https://png.pngtree.com/png-clipart/20231028/original/pngtree-close-up-of-christmas-decorated-sugar-cookies-in-a-plate-png-image_13450837.png"
   },
   {
     "id": 36,
@@ -777,6 +777,6 @@
         "reviewerName": "Tiago Rocha"
       }
     ],
-    "thumbnail": "wall_clock_thumbnail.jpg"
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBm-03nVjUaOh8usECaXd8uarLlJrKc1UQRg&s"
   }
 ]

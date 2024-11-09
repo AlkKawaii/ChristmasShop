@@ -1,5 +1,7 @@
 import Slider from '../../components/slider';
 import styles from './Home.module.css';
+import db from '../../db/products.json';
+import ProductsContainer from '../../components/ProductsContainer';
 
 export default function Home() {
   return (
@@ -11,6 +13,9 @@ export default function Home() {
           '/images/imagem3.JPG',
         ]}
       />
+      <br />
+      <br />
+      <ProductsContainer products={db} />
     </>
   );
 }

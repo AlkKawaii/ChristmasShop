@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-secondary);
+  z-index: 100000;
 }
 
 .leftContainer,
