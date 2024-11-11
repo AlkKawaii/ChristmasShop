@@ -11,7 +11,7 @@ export default function SearchBox({}) {
       onSubmit={(e) => {
         e.preventDefault();
         if (searching) {
-          navigate(`/results/${searching}`);
+          navigate(`/catalogue/${searching}`);
         }
       }}
       className={styles.searchBox}>

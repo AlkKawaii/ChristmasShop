@@ -12,7 +12,7 @@
   padding: 0.2em;
   outline: none;
   border: none;
-  transition: transform 0.3s 0.3s, opacity 0.3s;
+  transition: transform 0.3s 0.2s, opacity 0.3s;
   background-color: transparent;
   border-bottom: 3px solid var(--color-primary);
   transform: scaleX(0);

@@ -13,8 +13,7 @@ export default function Home() {
           '/images/imagem3.JPG',
         ]}
       />
-      <br />
-      <br />
+      <h1 className={styles.title}>Confira nossos produtos!</h1>
       <ProductsContainer products={db} />
     </>
   );

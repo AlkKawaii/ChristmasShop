@@ -14,6 +14,7 @@ export default function ProductsContainer({ products = [] }) {
           image={product.thumbnail}
           rating={product.rating}
           price={numFormatter.format(product.price)}
+          id={product.id}
           key={product.id}
         />
       ))}
