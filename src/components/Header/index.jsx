@@ -1,10 +1,10 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import heartOutline from '/svg/heartOutline.svg';
 import heartFilled from '/svg/heartFilled.svg';
 import shoppingCart from '/svg/shoppingCart.svg';
 import userCircle from '/svg/userCircle.svg';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import SearchBox from '../SearchBox';
 
 export default function Header() {

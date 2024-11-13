@@ -5,11 +5,12 @@
     "description": "Árvore de Natal verde com folhagem densa, perfeita para decorar sua casa neste Natal.",
     "category": "Decoração",
     "price": 299.99,
+    "discount": 30,
     "rating": 4.7,
     "stock": 15,
     "tags": ["Natal", "Árvore", "Decoração"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -32,11 +33,12 @@
     "description": "Bolas de Natal coloridas e brilhantes para enfeitar sua árvore.",
     "category": "Decoração",
     "price": 49.99,
+    "discount": 30,
     "rating": 4.5,
     "stock": 100,
     "tags": ["Natal", "Bolas", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -53,11 +55,12 @@
     "description": "Guirlanda de pinheiro natural com detalhes em vermelho e dourado.",
     "category": "Decoração",
     "price": 79.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 30,
     "tags": ["Natal", "Guirlanda", "Decoração"],
-    "shippingInformation": "Ships in 7 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 7 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -80,11 +83,12 @@
     "description": "Fio de luzes LED coloridas com 8 modos de pisca-pisca.",
     "category": "Decoração",
     "price": 69.9,
+    "discount": 30,
     "rating": 4.3,
     "stock": 50,
     "tags": ["Natal", "Luzes", "Decoração"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -101,11 +105,12 @@
     "description": "Decoração inflável de Papai Noel para áreas externas.",
     "category": "Decoração",
     "price": 199.99,
+    "discount": 30,
     "rating": 4.9,
     "stock": 10,
     "tags": ["Natal", "Papai Noel", "Decoração"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -122,11 +127,12 @@
     "description": "Meias decorativas para pendurar na lareira ou na árvore.",
     "category": "Decoração",
     "price": 39.99,
+    "discount": 30,
     "rating": 4.4,
     "stock": 80,
     "tags": ["Natal", "Meias", "Decoração"],
-    "shippingInformation": "Ships in 4 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 4 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -143,11 +149,12 @@
     "description": "Conjunto de presépio com figuras em resina, inclui 10 peças.",
     "category": "Decoração",
     "price": 129.99,
+    "discount": 30,
     "rating": 5.0,
     "stock": 20,
     "tags": ["Natal", "Presépio", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -164,11 +171,12 @@
     "description": "Boneco de neve em tecido com iluminação interna.",
     "category": "Decoração",
     "price": 89.9,
+    "discount": 30,
     "rating": 4.6,
     "stock": 25,
     "tags": ["Natal", "Boneco de Neve", "Decoração"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -185,11 +193,12 @@
     "description": "Toalha de mesa com tema natalino, medindo 1.5m x 2m.",
     "category": "Utilidades Domésticas",
     "price": 59.9,
+    "discount": 30,
     "rating": 4.7,
     "stock": 40,
     "tags": ["Natal", "Mesa", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -206,11 +215,12 @@
     "description": "Calendário do Advento com 24 portas, cada uma contendo um delicioso chocolate.",
     "category": "Presentes",
     "price": 89.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 50,
     "tags": ["Natal", "Calendário", "Chocolate"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -233,11 +243,12 @@
     "description": "Manta quentinha com estampa de flocos de neve, ideal para noites frias de Natal.",
     "category": "Utilidades Domésticas",
     "price": 99.99,
+    "discount": 30,
     "rating": 4.6,
     "stock": 30,
     "tags": ["Natal", "Manta", "Conforto"],
-    "shippingInformation": "Ships in 4 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 4 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -254,11 +265,12 @@
     "description": "Caneca de cerâmica com desenho de rena, perfeita para bebidas quentes.",
     "category": "Presentes",
     "price": 29.9,
+    "discount": 30,
     "rating": 4.9,
     "stock": 200,
     "tags": ["Natal", "Caneca", "Presentes"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -275,11 +287,12 @@
     "description": "Guardanapos vermelhos com detalhes em dourado, ideais para ceias de Natal.",
     "category": "Utilidades Domésticas",
     "price": 19.99,
+    "discount": 30,
     "rating": 4.5,
     "stock": 100,
     "tags": ["Natal", "Guardanapos", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -296,11 +309,12 @@
     "description": "Caixas decorativas para presentes, com diferentes tamanhos e estampas natalinas.",
     "category": "Presentes",
     "price": 39.9,
+    "discount": 30,
     "rating": 4.4,
     "stock": 75,
     "tags": ["Natal", "Caixas de Presente", "Embalagens"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -317,11 +331,12 @@
     "description": "Boneco Quebra-Nozes clássico em madeira, com 30cm de altura.",
     "category": "Decoração",
     "price": 149.99,
+    "discount": 30,
     "rating": 4.7,
     "stock": 20,
     "tags": ["Natal", "Quebra-Nozes", "Decoração"],
-    "shippingInformation": "Ships in 7 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 7 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -338,11 +353,12 @@
     "description": "Gorro de Papai Noel com luzes LED piscantes, ideal para festas.",
     "category": "Acessórios",
     "price": 24.9,
+    "discount": 30,
     "rating": 4.2,
     "stock": 150,
     "tags": ["Natal", "Gorro", "Festas"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -359,11 +375,12 @@
     "description": "Camiseta vermelha com estampa de rena em algodão.",
     "category": "Vestuário",
     "price": 59.9,
+    "discount": 30,
     "rating": 4.6,
     "stock": 60,
     "tags": ["Natal", "Roupas", "Estampa"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -380,11 +397,12 @@
     "description": "Vela aromática com fragrância de canela e maçã, perfeita para criar um ambiente natalino.",
     "category": "Decoração",
     "price": 29.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 80,
     "tags": ["Natal", "Velas", "Aromatizante"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -401,11 +419,12 @@
     "description": "Kit com 10 embalagens de presente natalinas, ideais para embalar seus presentes de forma especial.",
     "category": "Embalagens",
     "price": 39.9,
+    "discount": 30,
     "rating": 4.7,
     "stock": 120,
     "tags": ["Natal", "Embalagens", "Presentes"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -428,11 +447,12 @@
     "description": "Adesivos de janela com temas natalinos como flocos de neve e estrelas.",
     "category": "Decoração",
     "price": 19.9,
+    "discount": 30,
     "rating": 4.5,
     "stock": 200,
     "tags": ["Natal", "Adesivos", "Decoração"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -449,11 +469,12 @@
     "description": "Conjunto de cortadores para biscoitos em formas natalinas como árvore de Natal, estrela e boneco de neve.",
     "category": "Utensílios de Cozinha",
     "price": 39.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 60,
     "tags": ["Natal", "Biscoitos", "Cozinha"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -470,11 +491,12 @@
     "description": "Porta-retrato de madeira com decoração de árvore de Natal e estrelas douradas.",
     "category": "Presentes",
     "price": 29.9,
+    "discount": 30,
     "rating": 4.6,
     "stock": 150,
     "tags": ["Natal", "Porta-Retrato", "Presentes"],
-    "shippingInformation": "Ships in 4 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 4 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -491,11 +513,12 @@
     "description": "Caneca de cerâmica com decoração natalina de árvores de Natal e flocos de neve.",
     "category": "Presentes",
     "price": 34.9,
+    "discount": 30,
     "rating": 4.3,
     "stock": 80,
     "tags": ["Natal", "Caneca", "Decoração"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -512,11 +535,12 @@
     "description": "Cinto de Papai Noel de couro sintético com fivela dourada, ideal para fantasias.",
     "category": "Acessórios",
     "price": 19.9,
+    "discount": 30,
     "rating": 4.4,
     "stock": 50,
     "tags": ["Natal", "Acessórios", "Fantasias"],
-    "shippingInformation": "Ships in 4 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 4 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -533,11 +557,12 @@
     "description": "Luminária em formato de estrela com luz LED suave para decoração de Natal.",
     "category": "Decoração",
     "price": 59.9,
+    "discount": 30,
     "rating": 4.9,
     "stock": 70,
     "tags": ["Natal", "Luminária", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -554,11 +579,12 @@
     "description": "Bolsa térmica com tema natalino, ideal para transportar alimentos ou bebidas para a ceia de Natal.",
     "category": "Utilidades Domésticas",
     "price": 49.9,
+    "discount": 30,
     "rating": 4.5,
     "stock": 40,
     "tags": ["Natal", "Bolsa", "Utilidades"],
-    "shippingInformation": "Ships in 6 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 6 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,
@@ -575,11 +601,12 @@
     "description": "Mini árvore de Natal para decoração de mesas ou pequenos ambientes.",
     "category": "Decoração",
     "price": 19.9,
+    "discount": 30,
     "rating": 4.6,
     "stock": 100,
     "tags": ["Natal", "Mini Árvore", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -596,11 +623,12 @@
     "description": "Papel de presente com estampas natalinas, incluindo árvores de Natal, estrelas e neve.",
     "category": "Embalagens",
     "price": 14.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 250,
     "tags": ["Natal", "Papel de Presente", "Embalagens"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -617,11 +645,12 @@
     "description": "Meias de Natal com estampas de Papai Noel, renas e flocos de neve.",
     "category": "Vestuário",
     "price": 29.9,
+    "discount": 30,
     "rating": 4.7,
     "stock": 150,
     "tags": ["Natal", "Meias", "Vestuário"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -638,11 +667,12 @@
     "description": "Árvore de Natal artificial com galhos verdes e pontas nevadas, ideal para decoração de interiores.",
     "category": "Decoração",
     "price": 179.9,
+    "discount": 30,
     "rating": 4.9,
     "stock": 50,
     "tags": ["Natal", "Árvore de Natal", "Decoração"],
-    "shippingInformation": "Ships in 7 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 7 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -659,11 +689,12 @@
     "description": "Guirlanda de Natal decorada com folhas artificiais, um papai noel e luzes LED integradas.",
     "category": "Decoração",
     "price": 99.9,
+    "discount": 30,
     "rating": 4.8,
     "stock": 60,
     "tags": ["Natal", "Guirlanda", "Decoração"],
-    "shippingInformation": "Ships in 4 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 4 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -680,11 +711,12 @@
     "description": "Roupão macio e aconchegante, com bordados natalinos em verde e vermelho.",
     "category": "Vestuário",
     "price": 119.9,
+    "discount": 30,
     "rating": 4.7,
     "stock": 30,
     "tags": ["Natal", "Roupão", "Vestuário"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "Low Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque baixo",
     "reviews": [
       {
         "rating": 5,
@@ -701,11 +733,12 @@
     "description": "Cesta de café da manhã temática de Natal, com biscoitos, frutas secas, geleias e café.",
     "category": "Gastronomia",
     "price": 79.9,
+    "discount": 30,
     "rating": 4.6,
     "stock": 40,
     "tags": ["Natal", "Cesta de Café", "Gastronomia"],
-    "shippingInformation": "Ships in 5 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 5 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -722,11 +755,12 @@
     "description": "Coroa de flores artificiais com detalhes natalinos, ideal para pendurar na porta.",
     "category": "Decoração",
     "price": 49.9,
+    "discount": 30,
     "rating": 4.4,
     "stock": 100,
     "tags": ["Natal", "Coroa", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -743,11 +777,12 @@
     "description": "Biscoitos decorados com glacê e temas natalinos, como árvores de Natal, estrelas e sinos.",
     "category": "Gastronomia",
     "price": 29.9,
+    "discount": 30,
     "rating": 4.9,
     "stock": 150,
     "tags": ["Natal", "Biscoitos", "Gastronomia"],
-    "shippingInformation": "Ships in 2 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 2 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 5,
@@ -764,11 +799,12 @@
     "description": "Relógio de parede com design de Natal, com números grandes e ponteiros dourados.",
     "category": "Decoração",
     "price": 79.9,
+    "discount": 30,
     "rating": 4.5,
     "stock": 50,
     "tags": ["Natal", "Relógio", "Decoração"],
-    "shippingInformation": "Ships in 3 days",
-    "availabilityStatus": "In Stock",
+    "shippingInformation": "Chega em 3 dias",
+    "availabilityStatus": "Estoque disponível",
     "reviews": [
       {
         "rating": 4,

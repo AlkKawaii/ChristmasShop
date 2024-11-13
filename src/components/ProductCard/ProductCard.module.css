@@ -1,6 +1,6 @@
 .card {
   display: grid;
-  aspect-ratio: 11/16;
+  aspect-ratio: 11/18;
   padding: 0.5em;
   border: solid 2px var(--color-text);
   border-radius: 0.5em;
@@ -17,4 +17,26 @@
     height: 200px;
     object-fit: contain;
   }
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.oldPrice {
+  font-size: 0.9em;
+  text-decoration: line-through var(--color-primary) 2px;
+}
+
+.newPrice {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.discount {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.1em;
 }
