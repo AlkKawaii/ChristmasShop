@@ -604,7 +604,7 @@
     "discount": 30,
     "rating": 4.6,
     "stock": 100,
-    "tags": ["Natal", "Mini Árvore", "Decoração"],
+    "tags": ["Natal", "Árvore", "Decoração"],
     "shippingInformation": "Chega em 3 dias",
     "availabilityStatus": "Estoque disponível",
     "reviews": [
@@ -670,7 +670,7 @@
     "discount": 30,
     "rating": 4.9,
     "stock": 50,
-    "tags": ["Natal", "Árvore de Natal", "Decoração"],
+    "tags": ["Natal", "Árvore", "Decoração"],
     "shippingInformation": "Chega em 7 dias",
     "availabilityStatus": "Estoque disponível",
     "reviews": [

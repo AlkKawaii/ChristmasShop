@@ -3,7 +3,7 @@ import styles from './SearchBox.module.css';
 import search from '/svg/search.svg';
 import { useNavigate } from 'react-router-dom';
 
-export default function SearchBox({}) {
+export default function SearchBox() {
   const [searching, setSearching] = useState('');
   const navigate = useNavigate();
   return (

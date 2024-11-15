@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultInfo {
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.sortSelect {
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sortContainer {
+  display: flex;
+  position: relative;
+  width: min-content;
+  margin-right: 1.5em;
+  gap: 0.5em;
+  align-self: end;
+  white-space: nowrap;
+  &::after {
+    position: absolute;
+    content: '▼';
+    font-size: 1em;
+    top: 2px;
+    right: -1em;
+  }
+}
+
+.filteredCatalogue {
+  padding: 1em;
+  display: flex;
+  & > :nth-child(2) {
+    flex: 1;
+  }
+}

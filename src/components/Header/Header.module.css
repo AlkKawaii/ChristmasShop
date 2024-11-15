@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-secondary);
-  box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px 1px rgba(0, 0, 0, 0.2);
   transition: top 0.3s;
   z-index: 100000;
 }
@@ -21,14 +21,26 @@
 .rightContainer {
   display: flex;
   align-items: center;
-  gap: 0.3em;
+  gap: 0.4em;
 }
 
 .leftContainer {
-    color: var(--color-text);
-    text-decoration: none;
+  width: min-content;
+  color: var(--color-text);
+  text-decoration: none;
   img {
-    width: 10%;
+    width: 7vmin;
+  }
+  & span {
+    font-size: 2.5vmin;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  & * {
+    transition: all 0.2s;
+  }
+  &:hover * {
+    filter: drop-shadow(-1px -1px 4px var(--color-accent));
   }
 }
 
@@ -56,3 +68,13 @@
   }
 }
 
+.icon {
+  transform-origin: bottom;
+  transition: transform 0.1s;
+  &:hover:nth-child(even) {
+    transform: rotateZ(-10deg) scale(1.1);
+  }
+  &:hover:nth-child(odd) {
+    transform: rotateZ(10deg) scale(1.1);
+  }
+}

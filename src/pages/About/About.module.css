@@ -1,0 +1,31 @@
+.container {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 1em;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  & article {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid var(--color-text);
+    border-radius: 0.5em;
+    gap: 0.2em;
+    & h2 {
+      text-align: center;
+    }
+    & p::first-letter {
+      margin-left: 1em;
+    }
+  }
+  & article:nth-child(1) {
+    flex: 0.7;
+  }
+  & article:nth-child(2) {
+    flex: 0.3;
+  }
+}

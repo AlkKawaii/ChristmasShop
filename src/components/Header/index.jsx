@@ -38,14 +38,14 @@ export default function Header() {
       </Link>
       <div className={styles.rightContainer}>
         <SearchBox />
-        <Link to='/account'>
+        <Link className={styles.icon} to='/account'>
           <img src={userCircle} alt='Conta' />
         </Link>
-        <Link to='/wishlist' className={styles.wishlist}>
+        <Link to='/wishlist' className={`${styles.wishlist} ${styles.icon}`}>
           <img src={heartOutline} alt='Lista de Desejos' />
           <img src={heartFilled} alt='Lista de Desejos' />
         </Link>
-        <Link to='/shoppingcart'>
+        <Link className={styles.icon} to='/shoppingcart'>
           <img src={shoppingCart} alt='Carrinho' />
         </Link>
       </div>
