@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 import styles from './Slider.module.css';
 
-export default function Slider({ content = [] }) {
+export default function Slider({ images = [] }) {
   return (
     <div>
       <Swiper
@@ -20,8 +20,10 @@ export default function Slider({ content = [] }) {
         pagination={{ clickable: true, dynamicBullets: true }}
         modules={[Pagination, Autoplay]}
         className={styles.slider}>
-        {content.map((content, i) => (
-          <SwiperSlide key={i}>{content}</SwiperSlide>
+        {images.map((image, i) => (
+          <SwiperSlide key={i}>
+            <img src={image} alt={`Imagem número ${i + 1}`} />
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
