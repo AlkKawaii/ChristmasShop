@@ -3,7 +3,6 @@ import styles from './Header.module.css';
 import heartOutline from '/svg/heartOutline.svg';
 import heartFilled from '/svg/heartFilled.svg';
 import shoppingCart from '/svg/shoppingCart.svg';
-import userCircle from '/svg/userCircle.svg';
 import { useEffect, useRef } from 'react';
 import SearchBox from '../SearchBox';
 
@@ -38,9 +37,6 @@ export default function Header() {
       </Link>
       <div className={styles.rightContainer}>
         <SearchBox />
-        <Link className={styles.icon} to='/account'>
-          <img src={userCircle} alt='Conta' />
-        </Link>
         <Link to='/wishlist' className={`${styles.wishlist} ${styles.icon}`}>
           <img src={heartOutline} alt='Lista de Desejos' />
           <img src={heartFilled} alt='Lista de Desejos' />
