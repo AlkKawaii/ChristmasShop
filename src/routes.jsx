@@ -5,6 +5,7 @@ import NotFound from './pages/NotFound';
 import Product from './pages/Product';
 import About from './pages/About';
 import Catalogue from './pages/Catalogue';
+import Account from './pages/Account';
 
 export default function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ export default function AppRoutes() {
         <Route path='/' element={<Default />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='account' element={<Account />} />
           <Route path='catalogue' element={<Catalogue />}>
             <Route path=':search' element={<Catalogue />} />
           </Route>
