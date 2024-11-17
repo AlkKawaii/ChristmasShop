@@ -1,0 +1,11 @@
+.pair {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  gap: 0.5em;
+  & button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}

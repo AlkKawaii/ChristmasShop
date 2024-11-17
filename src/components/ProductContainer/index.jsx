@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './ProductContainer.module.css';
+import FavButton from '../FavButton';
 
 const productType = {
   id: 0,
@@ -35,6 +36,7 @@ export default function ProductContainer({ product = productType }) {
   return (
     <section className={styles.product}>
       <img src={product.thumbnail} alt={`Imagem do produto ${product.title}`} />
+      <FavButton id={product.id} />
       <div className={styles.info}>
         <h1>{product.title}</h1>
         <span className={styles.rating}>
