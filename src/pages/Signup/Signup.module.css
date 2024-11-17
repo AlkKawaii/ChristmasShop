@@ -1,5 +1,5 @@
-.container {
-  & form {
+.signupContainer {
+  & > form {
     position: absolute;
     display: flex;
     width: 50%;
@@ -12,30 +12,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0.75em;
-    & .textInput {
-      position: relative;
-      width: 75%;
-      & input {
-        width: 100%;
-        padding: 0.75em;
-        border: 1px solid var(--color-text);
-        border-radius: 0.75em;
-        outline: none;
-        background-color: transparent;
-        :is(&:focus, :not(&:placeholder-shown)) + label {
-          top: -0.6em;
-          font-size: 0.8em;
-        }
-      }
-      & label {
-        position: absolute;
-        height: fit-content;
-        inset-block: 0.5em;
-        left: 0.65em;
-        background-color: var(--color-background);
-        transition: all 0.1s;
-      }
-    }
+
     & p {
       width: 75%;
       font-size: 0.5em;
@@ -112,4 +89,29 @@
     background-color: inherit;
     cursor: pointer;
   }
+}
+
+.signupTextInput {
+  position: relative;
+  width: 75%;
+}
+.signupTextInput label {
+  position: absolute;
+  height: fit-content;
+  inset-block: 0.5em;
+  left: 0.65em;
+  background-color: var(--color-background);
+  transition: all 0.1s;
+}
+.signupTextInput > .signupInput {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid var(--color-text);
+  border-radius: 0.75em;
+  outline: none;
+  background-color: transparent;
+}
+.signupInput:is(:focus, :not(:placeholder-shown)) + label {
+  top: -0.6em;
+  font-size: 0.8em;
 }

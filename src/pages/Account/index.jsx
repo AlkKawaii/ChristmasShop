@@ -1,18 +1,15 @@
-import { useState } from 'react';
-import LogIn from '../../components/LogIn';
-import SignUp from '../../components/SignUp';
 import styles from './Account.module.css';
 import edit from '/svg/edit.svg';
+import { Navigate } from 'react-router-dom';
 
 export default function Account() {
-  const [loginScreen, setLoginScreen] = useState(false);
   const account = JSON.parse(
     sessionStorage.getItem('loggedAccount') ||
       localStorage.getItem('loggedAccount')
   );
   if (account) {
     return (
-      <div className={styles.container}>
+      <div className={styles.accountContainer}>
         <h1>Sua conta</h1>
         <div className={styles.pair}>
           <h2>Nome de usuário: </h2>
@@ -30,7 +27,7 @@ export default function Account() {
         </div>
         <form>
           <h2>Alterar senha</h2>
-          <div className={styles.textInput}>
+          <div className={styles.accountTextInput}>
             <input
               type='password'
               name='password'
@@ -42,7 +39,7 @@ export default function Account() {
             <label htmlFor='password'>Senha</label>
             <span className={styles.error}></span>
           </div>
-          <div className={styles.textInput}>
+          <div className={styles.accountTextInput}>
             <input
               type='password'
               name='repeatPassword'
@@ -59,16 +56,17 @@ export default function Account() {
           </button>
         </form>
         <article className={styles.paymentMethods}></article>
+        <button
+          type='button'
+          className={styles.logout}
+          onClick={() => {
+            localStorage.removeItem('loggedAccount');
+            sessionStorage.removeItem('loggedAccount');
+            location.reload();
+          }}>
+          Logout
+        </button>
       </div>
     );
-  } else
-    return (
-      <div>
-        {loginScreen ? (
-          <LogIn changeScreen={() => setLoginScreen(false)} />
-        ) : (
-          <SignUp changeScreen={() => setLoginScreen(true)} />
-        )}
-      </div>
-    );
+  } else return <Navigate to='/signup' />;
 }

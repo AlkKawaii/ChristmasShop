@@ -1,7 +1,9 @@
 import { useRef, useEffect } from 'react';
-import styles from './SignUp.module.css';
+import styles from './Signup.module.css';
+import { useNavigate } from 'react-router-dom';
 
-export default function SignUp({ changeScreen }) {
+export default function Signup() {
+  const navigate = useNavigate();
   const modalRef = useRef(null);
   const formInfoRef = useRef({
     name: '',
@@ -69,7 +71,7 @@ export default function SignUp({ changeScreen }) {
           password: info.password,
         })
       );
-    location.reload();
+    navigate('/account');
   }
 
   useEffect(() => {
@@ -88,13 +90,14 @@ export default function SignUp({ changeScreen }) {
   }, []);
 
   return (
-    <article className={styles.container}>
+    <article className={styles.signupContainer}>
       <form onSubmit={handleSubmit}>
-        <div className={styles.textInput}>
+        <div className={styles.signupTextInput}>
           <input
             type='text'
             name='name'
             id='name'
+            className={styles.signupInput}
             placeholder=' '
             autoFocus
             required
@@ -103,11 +106,12 @@ export default function SignUp({ changeScreen }) {
           <label htmlFor='name'>Nome de usuário</label>
           <span className={styles.error}></span>
         </div>
-        <div className={styles.textInput}>
+        <div className={styles.signupTextInput}>
           <input
             type='email'
             name='email'
             id='email'
+            className={styles.signupInput}
             placeholder=' '
             required
             onChange={(e) => (formInfoRef.current.email = e.target.value)}
@@ -115,11 +119,12 @@ export default function SignUp({ changeScreen }) {
           <label htmlFor='email'>Email</label>
           <span className={styles.error}></span>
         </div>
-        <div className={styles.textInput}>
+        <div className={styles.signupTextInput}>
           <input
             type='password'
             name='password'
             id='password'
+            className={styles.signupInput}
             placeholder=' '
             minLength={8}
             required
@@ -128,11 +133,12 @@ export default function SignUp({ changeScreen }) {
           <label htmlFor='password'>Senha</label>
           <span className={styles.error}></span>
         </div>
-        <div className={styles.textInput}>
+        <div className={styles.signupTextInput}>
           <input
             type='password'
             name='repeatPassword'
             id='repeatPassword'
+            className={styles.signupInput}
             placeholder=' '
             minLength={8}
             required
@@ -169,7 +175,9 @@ export default function SignUp({ changeScreen }) {
         </p>
         <span>
           Já tem uma conta?{' '}
-          <span className={styles.pseudoLink} onClick={() => changeScreen()}>
+          <span
+            className={styles.pseudoLink}
+            onClick={() => navigate('/login')}>
             Faça login
           </span>
         </span>

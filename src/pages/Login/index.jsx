@@ -1,7 +1,9 @@
 import { useRef } from 'react';
-import styles from './LogIn.module.css';
+import styles from './Login.module.css';
+import { useNavigate } from 'react-router-dom';
 
-export default function LogIn({ changeScreen }) {
+export default function Login() {
+  const navigate = useNavigate();
   const formInfoRef = useRef({ email: '', password: '', persist: false });
   function handleSubmit(e) {
     const info = formInfoRef.current;
@@ -18,7 +20,7 @@ export default function LogIn({ changeScreen }) {
             localStorage.setItem('loggedAccount', JSON.stringify(account));
           } else
             sessionStorage.setItem('loggedAccount', JSON.stringify(account));
-          location.reload();
+          navigate('/account');
         } else {
           errors[1].textContent = 'A senha está incorreta';
         }
@@ -32,12 +34,13 @@ export default function LogIn({ changeScreen }) {
   }
 
   return (
-    <article className={styles.container}>
+    <article className={styles.loginContainer}>
       <form onSubmit={handleSubmit}>
-        <div className={styles.textInput}>
+        <div className={styles.loginTextInput}>
           <input
             type='email'
             name='email'
+            className={styles.loginInput}
             id='email'
             placeholder=' '
             autoFocus
@@ -47,10 +50,11 @@ export default function LogIn({ changeScreen }) {
           <label htmlFor='email'>Email</label>
           <span className={styles.error}></span>
         </div>
-        <div className={styles.textInput}>
+        <div className={styles.loginTextInput}>
           <input
             type='password'
             name='password'
+            className={styles.loginInput}
             id='password'
             placeholder=' '
             minLength={8}
@@ -74,7 +78,9 @@ export default function LogIn({ changeScreen }) {
         </button>
         <span>
           Ainda não tem uma conta?{' '}
-          <span className={styles.pseudoLink} onClick={() => changeScreen()}>
+          <span
+            className={styles.pseudoLink}
+            onClick={() => navigate('/signup')}>
             Registre-se
           </span>
         </span>
