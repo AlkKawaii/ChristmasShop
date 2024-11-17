@@ -1,7 +1,7 @@
 import styles from './Home.module.css';
 import db from '../../db/products.json';
 import ProductsContainer from '../../components/ProductsContainer';
-import Slider from '../../components/Slider';
+import Slider from '../../components/slider';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
