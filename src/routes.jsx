@@ -6,8 +6,8 @@ import Product from './pages/Product';
 import About from './pages/About';
 import Catalogue from './pages/Catalogue';
 import Account from './pages/Account';
-import Signup from './pages/SignUp';
-import Login from './pages/LogIn';
+import Signup from './pages/Signup';
+import Login from './pages/Login';
 
 export default function AppRoutes() {
   return (
