@@ -40,8 +40,9 @@ export default function Signup() {
         name: info.name,
         email: info.email,
         password: info.password,
+        wishlist: [],
       });
-      localStorage.setItem('accounts', accounts);
+      localStorage.setItem('accounts', JSON.stringify(accounts));
     } else
       localStorage.setItem(
         'accounts',
@@ -50,6 +51,7 @@ export default function Signup() {
             name: info.name,
             email: info.email,
             password: info.password,
+            wishlist: [],
           },
         ])
       );
@@ -60,6 +62,7 @@ export default function Signup() {
           name: info.name,
           email: info.email,
           password: info.password,
+          wishlist: [],
         })
       );
     } else
@@ -69,6 +72,7 @@ export default function Signup() {
           name: info.name,
           email: info.email,
           password: info.password,
+          wishlist: [],
         })
       );
     navigate('/account');

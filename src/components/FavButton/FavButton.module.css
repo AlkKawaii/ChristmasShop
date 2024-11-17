@@ -9,7 +9,8 @@
     display: none;
   }
   img {
-    transition: all 0.2s;
+    width: 100%;
+    transition: opacity 0.2s, transform 0.1s;
   }
   img:nth-child(2) {
     position: absolute;
@@ -27,13 +28,18 @@
       transform: scale(1.2);
     }
   }
-  &:hover,
-  & input:checked {
+  &:hover {
     img:nth-child(2) {
       opacity: 0;
     }
     img:nth-child(3) {
-      opacity: 1;
+      opacity: 0.5;
     }
+  }
+  input:checked ~ img:nth-child(2) {
+    opacity: 0;
+  }
+  input:checked ~ img:nth-child(3) {
+    opacity: 1;
   }
 }

@@ -22,7 +22,7 @@ export default function Account() {
         <InfoEditor
           type='email'
           account={account}
-          newPassword='email'
+          info='email'
           title='Email:'
         />
         <form

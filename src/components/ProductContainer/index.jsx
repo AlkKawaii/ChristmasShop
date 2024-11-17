@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './ProductContainer.module.css';
 import FavButton from '../FavButton';
+import { useNavigate } from 'react-router-dom';
 
 const productType = {
   id: 0,
@@ -33,6 +34,58 @@ const productType = {
 
 export default function ProductContainer({ product = productType }) {
   const [quantity, setQuantity] = useState(1);
+  const navigate = useNavigate();
+
+  function handleAddToCart() {
+    const accounts = JSON.parse(localStorage.getItem('accounts')) || [];
+    const loggedAccount =
+      JSON.parse(sessionStorage.getItem('loggedAccount')) ||
+      JSON.parse(localStorage.getItem('loggedAccount'));
+
+    if (!loggedAccount) {
+      navigate('/signup');
+      return;
+    }
+
+    let accountIndex = accounts.findIndex(
+      (account) => account.email === loggedAccount.email
+    );
+
+    if (!accounts[accountIndex].cart) {
+      accounts[accountIndex].cart = [];
+    }
+
+    const existingItem = accounts[accountIndex].cart.find(
+      (item) => item.id === product.id
+    );
+
+    if (existingItem) {
+      const newQuantity = existingItem.quantity + quantity;
+
+      if (newQuantity <= product.stock) {
+        accounts[accountIndex].cart[existingItem].quantity = newQuantity;
+      } else {
+        accounts[accountIndex].cart[existingItem].quantity = product.stock;
+      }
+    } else {
+      accounts[accountIndex].cart.push({ id: product.id, quantity });
+    }
+
+    localStorage.setItem('accounts', JSON.stringify(accounts));
+
+    if (sessionStorage.getItem('loggedAccount')) {
+      sessionStorage.setItem(
+        'loggedAccount',
+        JSON.stringify(accounts[accountIndex])
+      );
+    } else {
+      localStorage.setItem(
+        'loggedAccount',
+        JSON.stringify(accounts[accountIndex])
+      );
+    }
+  }
+
   return (
     <section className={styles.product}>
       <img src={product.thumbnail} alt={`Imagem do produto ${product.title}`} />
@@ -107,7 +160,9 @@ export default function ProductContainer({ product = productType }) {
         <button className={`${styles.button} ${styles.shopNow}`}>
           Comprar agora
         </button>
-        <button className={`${styles.button} ${styles.shoppingCart}`}>
+        <button
+          className={`${styles.button} ${styles.shoppingCart}`}
+          onClick={handleAddToCart}>
           Adicionar ao carrinho
         </button>
       </div>
