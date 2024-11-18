@@ -5,6 +5,7 @@ import Slider from '../../components/slider';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+
   return (
     <>
       <Slider

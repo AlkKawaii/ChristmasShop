@@ -9,6 +9,7 @@ import Account from './pages/Account';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Wishlist from './pages/Wishlist';
+import ShoppingCart from './pages/ShoppingCart';
 
 export default function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ export default function AppRoutes() {
           <Route path='login' element={<Login />} />
           <Route path='account' element={<Account />} />
           <Route path='wishlist' element={<Wishlist />} />
+          <Route path='shoppingcart' element={<ShoppingCart />} />
           <Route path='catalogue' element={<Catalogue />}>
             <Route path=':search' element={<Catalogue />} />
           </Route>

@@ -1,6 +1,6 @@
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   position: sticky;
   top: 5em;
   height: min-content;
@@ -19,7 +19,7 @@
     border: none;
     background-color: var(--color-accent);
     color: inherit;
-    padding: .5em;
+    padding: 0.5em;
     margin-top: 1em;
     border-radius: 0.3em;
     cursor: pointer;
@@ -63,4 +63,3 @@
   display: flex;
   flex-direction: column;
 }
-

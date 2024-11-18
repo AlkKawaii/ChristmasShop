@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-bottom: 2em;
+}
+
+.commentContainer {
+  display: flex;
+  padding: 1.5em;
+  border: 2px solid var(--color-text);
+  margin-inline: 10em;
+  border-radius: 1em;
+  flex-direction: column;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
+}

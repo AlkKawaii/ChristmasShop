@@ -83,7 +83,6 @@ export default function Signup() {
       if (modalRef.current.open) {
         if (modalRef.current && !modalRef.current.contains(e.target)) {
           modalRef.current.close();
-          console.log('Fechado');
         }
       }
     };

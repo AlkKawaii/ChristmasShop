@@ -15,13 +15,9 @@ export default function ProductsContainer({ products = [] }) {
           rating={product.rating}
           price={numFormatter.format(product.price)}
           discount={product.discount}
-          discountedPrice={(
-            product.price -
-            product.price * (product.discount / 100)
-          ).toLocaleString('pt-BR', {
-            style: 'currency',
-            currency: 'BRL',
-          })}
+          discountedPrice={numFormatter.format(
+            product.price - product.price * (product.discount / 100)
+          )}
           id={product.id}
           key={product.id}
         />

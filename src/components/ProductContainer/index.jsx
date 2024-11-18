@@ -63,9 +63,17 @@ export default function ProductContainer({ product = productType }) {
       const newQuantity = existingItem.quantity + quantity;
 
       if (newQuantity <= product.stock) {
-        accounts[accountIndex].cart[existingItem].quantity = newQuantity;
+        accounts[accountIndex].cart[
+          accounts[accountIndex].cart.findIndex(
+            (product) => existingItem.id === product.id
+          )
+        ].quantity = newQuantity;
       } else {
-        accounts[accountIndex].cart[existingItem].quantity = product.stock;
+        accounts[accountIndex].cart[
+          accounts[accountIndex].cart.findIndex(
+            (product) => existingItem.id === product.id
+          )
+        ].quantity = product.stock;
       }
     } else {
       accounts[accountIndex].cart.push({ id: product.id, quantity });
@@ -157,7 +165,12 @@ export default function ProductContainer({ product = productType }) {
           </div>
           ({product.stock} disponíveis)
         </div>
-        <button className={`${styles.button} ${styles.shopNow}`}>
+        <button
+          className={`${styles.button} ${styles.shopNow}`}
+          onClick={() => {
+            handleAddToCart();
+            navigate('/shoppingcart');
+          }}>
           Comprar agora
         </button>
         <button
